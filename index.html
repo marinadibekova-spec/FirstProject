@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About VS Code</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#0ea5e9;--muted:#94a3b8;--glass:rgba(255,255,255,0.03)}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,var(--bg),#071028);color:#e6eef8;-webkit-font-smoothing:antialiased}
+    .container{max-width:900px;margin:48px auto;padding:28px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    header h1{margin:0;font-size:2rem;color:var(--accent)}
+    header p{margin:6px 0 18px;color:var(--muted)}
+    section{margin:18px 0;padding:12px;background:var(--glass);border-radius:8px}
+    h2{margin:0 0 8px;font-size:1.15rem}
+    ul{margin:8px 0 0 20px}
+    code{background:#00101a;padding:2px 6px;border-radius:6px;color:#9be7ff}
+    .kbd{display:inline-block;padding:4px 8px;border-radius:6px;background:#071725;border:1px solid rgba(255,255,255,0.04);font-weight:600}
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;text-align:center}
+    a{color:var(--accent)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Visual Studio Code (VS Code)</h1>
+      <p>A lightweight, extensible code editor from Microsoft — powerful for editing, debugging, and extending.</p>
+    </header>
+
+    <main>
+      <section id="what">
+        <h2>What is VS Code?</h2>
+        <p>VS Code is a free, open-source (MIT) source-code editor that runs on macOS, Windows, and Linux. It combines a fast editor, built-in Git support, debugging, and a rich ecosystem of extensions.</p>
+      </section>
+
+      <section id="features">
+        <h2>Key features</h2>
+        <ul>
+          <li><strong>IntelliSense:</strong> smart completions and signature help for many languages.</li>
+          <li><strong>Debugging:</strong> integrated debugger with breakpoints, call stacks, and an interactive console.</li>
+          <li><strong>Extensions:</strong> install thousands of extensions to add languages, themes, and tools.</li>
+          <li><strong>Version control:</strong> built-in Git UI for commits, branches, and diffing.</li>
+          <li><strong>Customization:</strong> tweak keybindings, settings, and layouts to fit your workflow.</li>
+        </ul>
+      </section>
+
+      <section id="tips">
+        <h2>Tips</h2>
+        <ul>
+          <li>Open the command palette with <span class="kbd">Cmd</span> + <span class="kbd">Shift</span> + <span class="kbd">P</span> (macOS) or <span class="kbd">Ctrl</span> + <span class="kbd">Shift</span> + <span class="kbd">P</span> (Windows/Linux).</li>
+          <li>Quickly toggle the terminal with <span class="kbd">Ctrl</span> + <span class="kbd">`</span>.</li>
+          <li>Use extensions like <em>Prettier</em> for formatting and <em>ESLint</em> for linting JavaScript/TypeScript.</li>
+          <li>Open a folder to get full workspace features and debugging configurations.</li>
+        </ul>
+      </section>
+
+      <section id="resources">
+        <h2>Resources</h2>
+        <ul>
+          <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Official website — code.visualstudio.com</a></li>
+          <li><a href="https://marketplace.visualstudio.com/vscode" target="_blank" rel="noopener">Extension Marketplace</a></li>
+          <li><a href="https://github.com/microsoft/vscode" target="_blank" rel="noopener">VS Code on GitHub</a></li>
+        </ul>
+      </section>
+
+      <section id="quick-start">
+        <h2>Quick-start</h2>
+        <p>To start editing:</p>
+        <ol>
+          <li>Install VS Code from the official website.</li>
+          <li>Open a project folder: <code>File → Open Folder...</code></li>
+          <li>Install recommended extensions for your stack via the left sidebar.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <small>Created for a quick demo — open this file in your browser to read.</small>
+    </footer>
+  </div>
+</body>
+</html>
