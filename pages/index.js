@@ -48,8 +48,13 @@ export default function Home() {
 
   return (
     <div className="page">
+      <header className="app-header">
+        <div className="container">
+          <h1>Tasks</h1>
+          <p className="tagline">Stay focused, stay productive</p>
+        </div>
+      </header>
       <main className="container">
-        <h1>Tasks — Minimal Todo</h1>
         <section className="panel">
           <h2>Create / Edit</h2>
           <TodoForm
